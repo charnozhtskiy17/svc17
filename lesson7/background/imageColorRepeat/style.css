@@ -1,0 +1,35 @@
+html, body {
+	background: #fff;
+	font-family: "Segoe UI Light";
+}
+
+h1 {
+	color: #bbb;
+	font-size: 40px;
+	text-align: center;
+}
+
+#color,
+#image,
+#repeat {
+	margin: 50px auto;
+	height: 300px;
+	width: 600px;
+	border: 1px solid #777;
+	color: #a23;
+	font-size: 24px;
+}
+
+#color {
+	background-color: rgba(50, 90, 200, .5);
+}
+
+#image {
+	background-image: url(img.jpg);
+}
+
+#repeat {
+	background-image: url(img.jpg);
+	background-repeat: repeat-y;
+	height: 1200px;
+}

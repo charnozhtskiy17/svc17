@@ -1,0 +1,82 @@
+html, body {
+	background: #ccc;
+	font-size: 24px;
+	margin: 0;
+	font-family: "Segoe UI Light";
+	color: #222;
+	width: 800px;
+	margin: 0 auto;
+}
+
+body {
+	padding: 20px 0;
+}
+
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+#ordered {
+
+}
+
+#unordered {
+
+}
+
+#from-unordered {
+	list-style: decimal;
+}
+
+#from-ordered {
+	list-style: disc;
+}
+
+#square {
+	list-style: square;
+}
+
+#circle {
+	list-style-type: circle;
+}
+
+#upper-alpha {
+	list-style: upper-alpha;
+}
+
+#lower-alpha {
+	list-style: lower-alpha;
+}
+
+#upper-roman {
+	list-style: upper-roman;
+}
+
+#lower-roman {
+	list-style: lower-roman;
+}
+
+#outside {
+	list-style-position: outside;
+}
+
+#inside {
+	list-style-position: inside;
+}
+
+#image {
+	list-style-image: url(http://placehold.it/20x20);
+	border: 100px;
+}
+
+#unstyled {
+	list-style: none;
+}

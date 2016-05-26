@@ -1,0 +1,65 @@
+html, body {
+	background: #fefefe;
+	font-size: 24px;
+	margin: 0;
+	font-family: "Segoe UI Light";
+	color: #222;
+	width: 800px;
+	margin: 0 auto;
+}
+
+body {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+#height {
+	height: 300px;
+}
+
+
+#max-height {
+	max-height: 150px;
+}
+
+#min-height {
+	min-height: 300px;
+}
+
+#width {
+	width: 400px;
+}
+
+#max-width {
+	max-width: 400px;
+}
+
+#min-width {
+	min-width: 700px;
+}
+
+#maxheight-maxwidth {
+	max-height: 200px;
+	max-width: 200px;
+}
+
+#minheight-minwidth {
+	min-height: 300px;
+	min-width: 300px;
+}
+
+#opacity {
+	opacity: 1;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
