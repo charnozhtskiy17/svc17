@@ -1,35 +1,85 @@
 html, body {
-	background: #fff;
+	background-image: url(Рисунок1.jpg);
 	font-family: "Segoe UI Light";
 }
-
+/*background-image: url(image.jpg); */
 h1 {
-	color: #bbb;
-	font-size: 40px;
+	color: #ccc;
+	font-size: 4em;
 	text-align: center;
+	margin: 30px;
+}
+#changedfont{
+font-family: fantasy;
+font-size: 1.5em;
+
+
+}
+.upperCASE {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+blockquote {
+	padding: 0px 70px;
+	margin: 0px -60px;
+	background-color: #EFEA8F;
+}
+				/*використанняя псевдокласа */
+ul span:first-child{
+
+	list-style-type: devanagari;
+}
+ul span.square{
+	list-style-type: square;
 }
 
-#color,
-#image,
-#repeat {
-	margin: 50px auto;
-	height: 300px;
-	width: 600px;
-	border: 1px solid #777;
-	color: #a23;
-	font-size: 24px;
+.icon {
+  padding-left: 0px;
+  height: 24px;
+  width: 24px;
+  display: block;
+  float: left;
+  margin-left: -22px;
+  margin-top: -4px;
+  background: url('sprites-example.png') no-repeat;
+  list-style-type: 
+}
+.icon.first {
+ height: 24px;
+  width: 24px;
+
+}
+ .nostyled {
+ 	list-style-type: none;
+ }
+
+img {
+	padding-left: 35%
 }
 
-#color {
-	background-color: rgba(50, 90, 200, .5);
+	:link {
+	color: green;
+	font-family: "Segoe UI";
+	text-decoration: none;
 }
 
-#image {
-	background-image: url(img.jpg);
+a:hover {
+	color: red;
+	text-decoration: underline;
 }
 
-#repeat {
-	background-image: url(img.jpg);
-	background-repeat: repeat-y;
-	height: 1200px;
+a:active {
+	color: pink;
+	text-decoration: overline;
+}
+
+a:visited {
+	color: green;
+}
+#moved{
+	position:relative; left:550px; bottom:700px;
+	font-size:30px;
+	font-weight: bold;
+	font-family: fantasy;
+	
 }
