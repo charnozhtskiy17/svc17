@@ -1,0 +1,87 @@
+html, body {
+	background: #eee;
+	color: #222;
+	font-family: "Segoe UI Light";
+	font-size: 24px;
+	margin: 0 auto;
+	width: 800px;
+}
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+.float-img {
+	text-align: justify;
+	text-indent: 1em;
+}
+
+.float-img > img {
+	float: left;
+	margin-left: 0;
+	margin: 10px;
+}
+
+.float {
+	background: #333;
+	color: #eee;
+	font-size: 24px;
+	font-variant: small-caps;
+	height: 50px;
+	width: 300px;
+}
+
+.float-left {
+	float: left;
+	font-size: 30px;
+	text-align: center;
+}
+
+.float.without-clearfix,
+.float.with-clearfix {
+	background: #ccc;
+	border: 1px solid #333;
+	color: #000;
+	font-weight: bold;
+	height: 200px;
+	text-align: justify;
+	text-shadow: 0 1px 1px #fff;
+	width: 500px;
+}
+.float.with-clearfix {
+	clear: both;
+}
+
+.float-outer {
+	background: #ccc;
+	width: 100%;
+	border: 1px solid #333;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.float-outer > img {
+	float: right;
+	border: 1px solid #333;
+}
+
+.float-outer.overflow {
+	overflow: auto;
+}
+
+.clearfix-element {
+	clear: both;
+}
+
+.float-outer-clearfix:after {
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+}

@@ -1,0 +1,107 @@
+html, body {
+	background: #eee;
+	color: #222;
+	font-family: "Segoe UI Light";
+	font-size: 24px;
+	margin: 0 auto;
+	width: 800px;
+}
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+.overflow {
+	background: #ccc;
+	border: 1px solid #333;
+	color: #222;
+	font-variant: small-caps;
+	font-weight: bold;
+	height: 200px;
+	text-shadow: 1px 0 1px #fff;
+	width: 100%;
+}
+
+.overflow-visible {
+	margin-bottom: 150px;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+/* == block == */
+
+.block {
+	display: block;
+	height: 100px;
+	background: #faa;
+	margin-bottom: 20px;
+}
+
+.inline {
+	display: inline;
+	background: #aaf;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.inline-block {
+	display: inline-block;
+	background: #afa;
+	width: 150px;
+	height: 50px;
+}
+
+.vertical-align {
+	font-size: 40px;
+	line-height: 40px;
+	width: 1200px;
+}
+
+.valign-top {
+	vertical-align: top;
+}
+
+.valign-middle {
+	vertical-align: middle;
+}
+
+.valign-baseline {
+	vertical-align: baseline;
+}
+
+.valign-bottom {
+	vertical-align: bottom;
+}
+
+.valign-custom {
+	vertical-align: 30px;
+}
+
+.visibility.visibility-visible {
+	visibility: visible;
+}
+
+.visibility.visibility-hidden {
+	visibility: hidden;
+}

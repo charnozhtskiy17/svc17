@@ -1,0 +1,132 @@
+html, body {
+	background: #ccc;
+	font-size: 24px;
+	margin: 0;
+	font-family: "Segoe UI Light";
+	color: #222;
+	width: 800px;
+	margin: 0 auto;
+}
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+.values-container {
+	width: 100%;
+	height: 80px;
+	background: #ea9;
+	border: 1px solid #777;
+	font-size: 0;
+}
+
+.el {
+	display: inline-block;
+	height: 20px;
+	width: 40px;
+	background: #993;
+}
+
+.values-container-top > .el {
+	margin-top: 20px;
+}
+
+.values-container-right > .el {
+	margin-right: 20px;
+}
+
+.values-container-bottom {
+	height: auto;
+}
+
+.values-container-bottom > .el {
+	margin-bottom: 20px;
+}
+
+.values-container-bottom > .el  {
+	display: block;
+}
+
+.values-container-left > .el {
+	margin-left: 20px;
+}
+
+
+.margin-collapse {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.margin-collapse > li {
+	margin: 20px 0;
+}
+
+.margin-collapse-inline-block > li {
+	display: inline-block;
+}
+
+.margin-collapse-left > li {
+	float: left;
+}
+.margin-centralized-container {
+	height: 300px;
+	width: 100%;
+}
+
+.margin-centralized-container > div {
+	display: inline-block; /* without width enough */
+}
+
+.margin-centralized {
+	height: 150px;
+	width: 200px;
+	background: #33f;
+	margin: 0 auto;
+}
+
+/*
+
+overflow: hidden; - for parent margin collapse prevent
+
+*/
+
+#parent {
+	background-color:yellow;
+}
+
+#red {
+	background-color:red;
+	height:50px;
+}
+
+#blue {
+	background-color:blue;
+	height:50px; 
+	margin-top:30px;
+}
+
+#blue p{ 
+	margin-top:20px;
+	background:green;
+}
+
+#container {
+	background: #ccc;
+	width: 100%;
+}
+
+.square {
+	margin: 10px 0;
+	height: 50px;
+	width: 100%;
+	background: #f0f;
+	padding: 1px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>float</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>float</h1>
+	<h2>image</h2>
+	<p class="float-img">
+		Saepe provident fuga nisi laborum. Autem laborum nihil itaque aperiam, similique totam delectus quasi placeat quibusdam eos beatae minus odio consequatur dolorum unde tenetur ipsum, facere ipsam labore illo officiis soluta harum dicta laboriosam. Cumque beatae, modi, cupiditate, iste eos recusandae doloribus velit id accusamus eaque repudiandae. Laboriosam molestiae facilis culpa possimus veniam adipisci enim voluptate doloremque commodi amet aspernatur
+		<img src="https://placehold.it/500x200" alt="Lorem ipsum dolor sit amet.">
+		necessitatibus ipsa pariatur odio distinctio architecto tempore repellendus, sunt modi placeat iste mollitia sapiente nobis maxime! Minus aspernatur tenetur reprehenderit quos commodi. Voluptates, dolorem velit error eos dolor nam pariatur necessitatibus cumque maxime magnam adipisci cum iste mollitia quisquam similique optio omnis consectetur natus placeat dignissimos fugit!
+	</p>
+
+	<h2>clear</h2>
+	<div class="float float-left">floated element</div>
+	<div class="float without-clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias animi esse iusto doloribus facere eligendi quasi quis, sunt, eos ratione cumque cupiditate ducimus harum mollitia non tempora libero quas veniam!</div>
+	<hr style="clear: both;">
+	<div class="float float-left">floated element</div>
+	<div class="float with-clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odio libero dolore vel, minus ut consequuntur consectetur repellendus deserunt delectus enim neque. Maxime quis, libero odio a illo voluptates vero.</div>
+	
+
+	<h2>clearfix</h2>
+	<h3>utilized "overflow: hidden|scroll|auto"</h3>
+	<div class="float-outer overflow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur veniam porro quia quaerat sint! Soluta nulla modi nobis molestias hic, illum vitae corporis.
+		<img class="float-inner" src="https://placehold.it/300x200">
+		Tenetur nostrum minus tempore alias, totam.
+	</div>
+
+	<h3>utilized inner element with rule "clear"</h3>
+
+	<div class="float-outer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur veniam porro quia quaerat sint! Soluta nulla modi nobis molestias hic, illum vitae corporis.
+		<img class="float-inner" src="https://placehold.it/300x200">
+		Tenetur nostrum minus tempore alias, totam.
+		<div class="clearfix-element"></div>
+	</div>
+
+	<h3>"Elegant way"- utilizing pseudoelements.</h3>
+	<div class="float-outer float-outer-clearfix">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod consectetur veniam porro quia quaerat sint! Soluta nulla modi nobis molestias hic, illum vitae corporis.
+		<img class="float-inner" src="https://placehold.it/300x200">
+		Tenetur nostrum minus tempore alias, totam.
+	</div>
+
+	<small>Clearfix implementations: <a href="http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use">here</a></small>
+
+</body>
+</html>

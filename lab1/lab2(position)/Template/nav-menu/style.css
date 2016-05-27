@@ -1,0 +1,67 @@
+html, body {
+	background: #ccf;
+	font-size: 24px;
+	margin: 0;
+	font-family: "Segoe UI Light";
+	color: #222;
+	width: 800px;
+	margin: 0 auto;
+}
+h1, h2, h3 {
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 1.5em;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+}
+
+.menu-item {
+	border-top: 1px solid #999;
+	background: #333;
+	position: relative;
+}
+.menu-item:hover {
+	background: #444;
+	border-top-width: 3px;
+}
+
+.menu-item-link {
+	color: #eee;
+	font-variant: small-caps;
+	padding: 10px 20px;
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu-item:hover > .menu-item-link {
+	padding-top: 8px;
+}
+
+.menu-item-link:first-letter {
+	font-size: 1.2em;
+	color: #f41;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+}
+
+.menu-item:hover > .sub-menu {
+	display: block;
+	left: 200px;
+	top: -3px;
+}
