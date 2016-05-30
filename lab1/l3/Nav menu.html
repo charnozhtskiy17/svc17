@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Navigation menu</title>
+	<style type="text/css">
+		body {
+			font-size: 3em;
+			background: #F6E992;
+			}
+		a {text-decoration: none;}
+
+		* li {display: block;
+				border-top: 1px solid black}
+	
+		ul{list-style-type: none;}
+
+		.link:first-letter {color: black}
+
+		.menu, .submenu{
+			font-family: Helvetica;
+			font-weight: 900;		
+			margin:20px 30px;
+			width: 200px;
+			text-align: center;
+			padding: 0
+
+		}
+		ul.menu  > li{	background: #9792F6;}
+			
+
+				
+		.link:hover {background: #F47CDF;
+					position: relative;}
+
+		
+			
+			
+		}.menu-item:hover{background: red;}
+
+		.sub1{
+					display: none;
+					position: absolute;
+}
+
+		
+		.submenu {display: none;}
+
+		
+		.link:hover .submenu{	display: block;
+								padding-left: 0px;
+								position: absolute;
+								top: 0px;
+								margin-top: 0;
+								margin-left: 200px;
+								background: #F47A3F;
+								border:0px;}
+			.subsub {display: none;}
+
+
+		:hover > .subsub{
+					display: block;
+					padding-left: 0px;
+								position: absolute;
+								top: 0px;
+								width: 300px;
+								margin-top: 0;
+								margin-left: 200px;
+								background: #F47A3F;
+								border:0px;}
+		}
+
+	</style>
+</head>
+
+
+<body>
+	<ul class="menu">
+				<li class="link" class="menu-item"><a href="#1">Text1</a>
+
+
+				</li>
+
+
+
+
+
+
+
+
+				<li class="link" class="menu-item"><a href="#2">Text2</a></li>
+				<li class="link" class="menu-item"><a href="#3">Text3</a></li>
+	
+				<li class="link" class="menu-item"><a href="#4">Text4</a>			<ul class="submenu" class="" >
+										<li class="link"><a href="#2">Text2</a></li>
+										<li class="link"><a href="#3">Text3</a>
+															</li>
+										<li id="asd" class="link"><a name="sds">Text4</a>	<ul class="subsub" class="" >
+																<li class="link"><a href="#2">Text2</a></li>
+																<li class="link"><a href="#3">Text3</a></li>
+																<li class="link"><a href="#4">Text4</a></li>
+																</ul></li>
+								</ul></li>
+	
+
+	
+	</ul>
+
+</body>
+</html>
